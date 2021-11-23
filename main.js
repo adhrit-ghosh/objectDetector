@@ -5,7 +5,7 @@ function preload(){
 img=loadImage("dog_cat.jpg");
 }
 function setup(){
-canvas=createCanvas(500,500);
+canvas=createCanvas(600,500);
 canvas.position(450,100);
 objectdetector=ml5.objectDetector("cocossd",modelLoaded);
 
